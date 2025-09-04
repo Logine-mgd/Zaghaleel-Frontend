@@ -6,7 +6,7 @@ window.addEventListener('load',()=>{
         { 
             My_spinner.style.display ='none'; 
         }
-        ,300)
+        ,200)
 });    
 
 var email = document.getElementById('email');
