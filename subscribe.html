@@ -58,11 +58,10 @@
                             <label for="username" class="form-label">Age</label>
                             <input type="text" name="age" id="age" class="form-control" placeholder="Enter your age" onkeyup="ageWidthProg()"/>
                         </div>
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-primary" onclick="alertSubmission()">
                             Submit
                         </button>
-                    </div>
-                    
+                    </div>                    
                     <div class="col-lg-4 col-sm-12 ms-auto d-flex justify-content-end align-items-end pe-0">
                         <img src="/Images/kalkas.jpg" class="img-fluid" alt="" />
                         
@@ -70,7 +69,12 @@
                 </div>
             </div>
         </section>
-        
+                
+        <div class="alert alert-success alert-dismissible fade position-fixed top-0 end-0 m-3" role="alert" id="popupAlert" style="z-index: 1050; display: none;">
+            <h5 class="alert-heading text-success">Welcome to Our Family</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
         <section class="subscribe_table bg-success text-white">
             <div class="container">
                 <div class="row">
@@ -116,7 +120,7 @@
             <nav aria-label="...">
                 <ul class="pagination">
                     <li class="page-item">
-                        <a class="page-link" href="series.html" aria-label="Next">
+                        <a class="page-link" href="episodes.html" aria-label="Next">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
@@ -126,7 +130,7 @@
                         </a>
                     </li>
                     <li class="page-item">
-                        <a class="page-link" href="series.html" aria-label="Next">
+                        <a class="page-link" href="episodes.html" aria-label="Next">
                             <span aria-hidden="true">2</span>
                         </a>
                     </li>

@@ -6,7 +6,7 @@ window.addEventListener('load',()=>{
         { 
             My_spinner.style.display ='none'; 
         }
-        ,200)
+        ,100)
 });    
 
 var email = document.getElementById('email');
@@ -30,4 +30,15 @@ function passWidthProg()
 function ageWidthProg()
 {
     progBar.style.width = '100%';
+}
+
+function alertSubmission()
+{
+    var alertEl = document.getElementById('popupAlert');
+    alertEl.style.display = 'block';       
+    alertEl.classList.add('show');         
+    var bsAlert = new bootstrap.Alert(alertEl);
+    setTimeout(function () {
+        bsAlert.close();
+    }, 2000);
 }
