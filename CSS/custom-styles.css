@@ -7,32 +7,38 @@
 
 :root{
     --bs-primary: #e5bd39ef;
+    --bs-secondary: #F8C4C6;
     --bs-success: #37984eae;
-    --bs-yellow: #ceac3db0;
-    --bs-green: #37984e;
-    --bs-pink: #F8C4C6;
+    --bs-warning: #fff71bf3;
+    --bs-danger: #f45a07;
 }
 
 .bg-primary ,.btn-primary
 {
     background-color: var(--bs-primary) !important;
     border: var(--bs-primary) !important;
+    color: whitesmoke !important;
 }
 
-.bg-success
+.bg-success, .btn-success, .badge-success
 {
     background-color: var(--bs-success) !important;
+    color: white;
 }
 
-
+.badge-danger
+{
+    background-color: var(--bs-danger);
+    color: white;
+}
 .text-success
 {
     color: var(--bs-success) !important
 }
 
-.bg-pink
+.bg-secondary
 {
-    background-color: var(--bs-pink) !important
+    background-color: var(--bs-secondary) !important
 }
 
 .bg-yellow
