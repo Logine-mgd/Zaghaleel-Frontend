@@ -45,13 +45,6 @@
 {
   background-color: var(--bs-yellow) !important;
 }
-.bg-gn-img
-{
-    background: url("/Images/p.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center; 
-}
 
 .bg-img
 {

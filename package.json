@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap2",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logine-mgd/Zaghaleel-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Logine-mgd/Zaghaleel-Frontend/issues"
+  },
+  "homepage": "https://github.com/Logine-mgd/Zaghaleel-Frontend#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
