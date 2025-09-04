@@ -1,6 +1,6 @@
 const My_spinner = document.querySelector('.myspinner');
 var progBar = document.querySelector('div.progress-bar');
-window.addEventListener('load',()=>{
+window.addEventListener('DOMContentLoaded',()=>{
     My_spinner.style.opacity = '0';
     setTimeout(()=>
         { 
