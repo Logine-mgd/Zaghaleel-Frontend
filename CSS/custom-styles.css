@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing :border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+:root{
+    --bs-primary: #e5bd39ef;
+    --bs-success: #37984eae;
+    --bs-yellow: #ceac3db0;
+    --bs-pink: #F8C4C6;
+}
+
+.bg-primary ,.btn-primary
+{
+    background-color: var(--bs-primary) !important;
+    border: var(--bs-primary) !important;
+}
+
+.bg-success
+{
+    background-color: var(--bs-success) !important;
+}
+
+
+.text-success
+{
+    color: var(--bs-success) !important
+}
+
+.bg-pink
+{
+    background-color: var(--bs-pink) !important
+}
+
+.bg-yellow
+{
+  background-color: var(--bs-yellow) !important;
+}
+.bg-gn-img
+{
+    background: url("/Images/p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.bg-img
+{
+    background: url("/Images/background_song.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
